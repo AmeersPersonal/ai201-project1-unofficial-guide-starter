@@ -8,9 +8,9 @@ import sys
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-DEFAULT_LLM_MODEL = "grok-3-mini"
+DEFAULT_LLM_MODEL = "llama-3.3-70b-versatile"
 DEFAULT_TOP_K = 5
-XAI_CHAT_COMPLETIONS_URL = "https://api.x.ai/v1/chat/completions"
+GROQ_CHAT_COMPLETIONS_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
 SYSTEM_PROMPT = """You are The Tech Student's Unofficial Guide to Building Side Projects.
@@ -54,22 +54,22 @@ def format_context(results: list[object]) -> str:
     return "\n\n".join(context_blocks)
 
 
-def get_grok_api_key() -> str:
+def get_groq_api_key() -> str:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError(
-            "Grok API key is missing. Add GROK_API_KEY to your .env file."
+            "Groq API key is missing. Add GROQ_API_KEY to your .env file."
         )
     return api_key
 
 
-def call_grok_llm(
+def call_groq_llm(
     question: str,
     context: str,
     model: str = DEFAULT_LLM_MODEL,
     temperature: float = 0.2,
 ) -> str:
-    api_key = get_grok_api_key()
+    api_key = get_groq_api_key()
 
     payload = {
         "model": model,
@@ -88,11 +88,12 @@ def call_grok_llm(
     }
 
     request = Request(
-        XAI_CHAT_COMPLETIONS_URL,
+        GROQ_CHAT_COMPLETIONS_URL,
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "ai201-side-project-guide/1.0",
         },
         method="POST",
     )
@@ -102,9 +103,9 @@ def call_grok_llm(
             data = json.loads(response.read().decode("utf-8"))
     except HTTPError as error:
         details = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Grok API request failed: {error.code} {details}") from error
+        raise RuntimeError(f"Groq API request failed: {error.code} {details}") from error
     except URLError as error:
-        raise RuntimeError(f"Could not reach Grok API: {error.reason}") from error
+        raise RuntimeError(f"Could not reach Groq API: {error.reason}") from error
 
     return data["choices"][0]["message"]["content"].strip()
 
@@ -134,7 +135,7 @@ def answer_question(question: str, top_k: int, model: str, show_context: bool) -
         print(context)
         print("\n" + "=" * 80 + "\n")
 
-    answer = call_grok_llm(question, context, model=model)
+    answer = call_groq_llm(question, context, model=model)
     print(answer)
     print_sources(results)
 
@@ -167,8 +168,7 @@ def main() -> None:
     parser.add_argument("--top-k", type=int, default=DEFAULT_TOP_K)
     parser.add_argument(
         "--model",
-        default=os.environ.get("GROK_MODEL")
-        or os.environ.get("XAI_MODEL")
+        default=os.environ.get("GROQ_MODEL")
         or DEFAULT_LLM_MODEL,
     )
     parser.add_argument("--show-context", action="store_true")
