@@ -1,0 +1,4 @@
+Source 10: Open Source Guides - Starting an Open Source Project
+URL: https://opensource.guide/starting-a-project/
+
+Open Source Guides frames a project as more than code: it needs clear goals, expectations, documentation, and contribution paths. For a student, this is helpful even when the project is mostly a portfolio piece. A project should have a clear purpose, a manageable scope, instructions for setup, a license, and guidance for issues or contributions if collaboration is welcome. The guide also implies that project maintenance is a real skill. Students can show maturity by keeping the project focused, explaining decisions, labeling known bugs, and making it easy for someone else to understand the current status. A side project does not need to become a large open source community, but it benefits from the same clarity.

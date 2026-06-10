@@ -1,0 +1,4 @@
+Source 4: GitHub Docs - Licensing a repository
+URL: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+
+Licensing matters for student side projects because publishing code publicly is not the same thing as giving everyone permission to reuse it. GitHub explains that a software license tells other people what they can and cannot do with the source code. Without a license, default copyright rules apply, meaning the author keeps rights and others generally do not have permission to reproduce, distribute, or create derivative work. For a student project, adding a LICENSE file in the repository root makes expectations clearer for classmates, recruiters, collaborators, and anyone who wants to fork or learn from the code. The license decision should match the author's goal: portfolio visibility, open source contribution, reuse, or private ownership.

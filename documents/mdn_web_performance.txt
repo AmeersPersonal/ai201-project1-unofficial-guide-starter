@@ -1,0 +1,4 @@
+Source 9: MDN Web Docs - The why of web performance
+URL: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/why_web_performance
+
+Performance matters because users experience an app through loading time, responsiveness, and reliability on their actual device and connection. MDN's performance guide connects speed to usability, accessibility, retention, and trust. For student side projects, this means avoiding huge bundles, unoptimized images, unnecessary network requests, expensive client-side rendering, and slow database queries. A small project can still feel professional if it loads quickly, gives feedback during slow operations, caches where appropriate, and handles errors gracefully. Performance is also useful in interviews because students can explain concrete tradeoffs: what they measured, what slowed the app down, and what they improved.

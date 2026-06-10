@@ -1,0 +1,4 @@
+Source 8: MDN Web Docs - What is accessibility?
+URL: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility
+
+Accessibility is part of project quality, not an optional polish step. MDN explains accessibility as building websites and tools so people with different abilities and browsing contexts can use them. For a student's side project, this affects semantic HTML, keyboard navigation, labels for form controls, color contrast, focus states, alt text for meaningful images, and avoiding interactions that only work with a mouse. Accessibility also makes a project easier to test and explain because the interface structure is clearer. A portfolio project that handles accessibility well signals that the student thinks about real users rather than only screenshots.

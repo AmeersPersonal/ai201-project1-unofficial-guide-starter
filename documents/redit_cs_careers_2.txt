@@ -1,0 +1,31 @@
+Thread title: Company took away access to Claude
+Source context: r/cscareerquestions discussion about AI coding tool access, cost, productivity, quality, and risks of overreliance.
+
+Original post:
+The poster says their company spent two years telling employees to use AI for every task and even rebranded around being AI-first after layoffs. Then the company removed access to Claude. The poster felt the strongest model was the only one that avoided low-quality output. They say weaker models are less useful for senior-level work because the time spent writing detailed specs and managing context can become greater than the time saved. The poster works for a large financial company.
+
+Substantive responses:
+
+A major theme is cost. Several commenters argue that free or subsidized AI access creates unrealistic expectations until the company receives the real bill. One commenter calls this the end of the all-you-can-eat AI period and says AI assistance can be good in some scenarios, but it is still an assistant, not a full replacement, especially at real cost.
+
+Another commenter says token-based pricing is hard for companies because costs are non-deterministic and usage can grow unpredictably. If the return on investment is not obvious, finance teams may restrict access, require approvals, or limit which models employees can use.
+
+Some commenters describe companies encouraging heavy AI use and then reversing course when budgets, overage charges, or model pricing changed. One commenter says their company tracked AI usage and pushed employees to use it, then suddenly blocked access. Another says their company started requiring approvals after a period of unrestricted use caused very high bills.
+
+Several commenters connect AI cost to side effects for teams. Restrictions can interrupt developer workflows if people have become dependent on a specific tool. Some also worry that replacing junior work with AI harms the talent pipeline because companies still need junior developers to become future senior developers.
+
+Quality is another major theme. Some commenters say AI-generated code can be useful, but it can also produce poor source code, misleading summaries, or low-quality patterns if the sources or prompts are weak. Others argue that the biggest lie is exaggerated speed gains: a task may appear fast in a demo, but real work still includes prompting, waiting, reviewing, testing, QA, deployment, and debugging.
+
+There is disagreement about how much AI helps. Some say the tools are excellent and worth paying for. Others say they are useful only for basic searches, repetitive tasks, research, or codebase summaries. A common middle position is that AI is valuable but should not become the only way a developer can work.
+
+Takeaways for a tech student's side project guide:
+
+Choose tools with cost in mind. AI APIs, hosted models, and paid coding assistants can become expensive, especially if a project grows or uses many tokens.
+
+Do not build a side project that only works when a paid AI tool is available. Have a fallback plan, clear limits, and a way to continue coding manually.
+
+Track what AI is doing for your project. If the tool generates code, tests, documentation, or architecture, review and verify each piece.
+
+Be honest about productivity. Include time for prompt writing, waiting, debugging, testing, deployment, and maintenance.
+
+For portfolio work, demonstrate that you understand the project without the AI tool. You should be able to explain the architecture, fix bugs, and justify tradeoffs yourself.

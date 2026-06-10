@@ -1,0 +1,137 @@
+{
+  "chunk_count": 13,
+  "chunk_size_words": 350,
+  "overlap_words": 100,
+  "chunks": [
+    {
+      "chunk_id": "doc_001_chunk_000",
+      "source_id": "doc_001",
+      "source_name": "ftc_personal_information.txt",
+      "path": "documents\\ftc_personal_information.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 135,
+      "text": "Source 7: FTC - Protecting Personal Information: A Guide for Business URL: https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business The FTC's business guidance is useful for side projects that collect names, emails, resumes, messages, school information, analytics, payment data, or any user account data. The main lesson for students is data minimization: do not collect personal information unless the project actually needs it, and do not keep it longer than needed. Projects should protect stored data, restrict who can access it, and dispose of data safely when it is no longer necessary. A student building a public app should know what data the app collects, where it is stored, which third-party services receive it, and how a user could request deletion. Even a small portfolio project can create real privacy risk if it has a database, public forms, logs, or analytics."
+    },
+    {
+      "chunk_id": "doc_002_chunk_000",
+      "source_id": "doc_002",
+      "source_name": "github_licensing_docs.txt",
+      "path": "documents\\github_licensing_docs.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 124,
+      "text": "Source 4: GitHub Docs - Licensing a repository URL: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository Licensing matters for student side projects because publishing code publicly is not the same thing as giving everyone permission to reuse it. GitHub explains that a software license tells other people what they can and cannot do with the source code. Without a license, default copyright rules apply, meaning the author keeps rights and others generally do not have permission to reproduce, distribute, or create derivative work. For a student project, adding a LICENSE file in the repository root makes expectations clearer for classmates, recruiters, collaborators, and anyone who wants to fork or learn from the code. The license decision should match the author's goal: portfolio visibility, open source contribution, reuse, or private ownership."
+    },
+    {
+      "chunk_id": "doc_003_chunk_000",
+      "source_id": "doc_003",
+      "source_name": "github_readme_docs.txt",
+      "path": "documents\\github_readme_docs.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 129,
+      "text": "Source 3: GitHub Docs - About the repository README file URL: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes A strong side project needs a README because the README is usually the first thing another developer, recruiter, classmate, or potential user sees. GitHub's README guidance says the file should explain what the project does, why it is useful, how someone can get started, where users can get help, and who maintains or contributes to the project. For a tech student, this means the README should not only show that the app works, but also show judgment: clear setup steps, environment variables, screenshots or demo links, known limitations, and honest notes about what is still unfinished. A side project that is hard to run or understand can look weaker than a smaller project that is documented well."
+    },
+    {
+      "chunk_id": "doc_004_chunk_000",
+      "source_id": "doc_004",
+      "source_name": "mdn_accessibility.txt",
+      "path": "documents\\mdn_accessibility.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 109,
+      "text": "Source 8: MDN Web Docs - What is accessibility? URL: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility Accessibility is part of project quality, not an optional polish step. MDN explains accessibility as building websites and tools so people with different abilities and browsing contexts can use them. For a student's side project, this affects semantic HTML, keyboard navigation, labels for form controls, color contrast, focus states, alt text for meaningful images, and avoiding interactions that only work with a mouse. Accessibility also makes a project easier to test and explain because the interface structure is clearer. A portfolio project that handles accessibility well signals that the student thinks about real users rather than only screenshots."
+    },
+    {
+      "chunk_id": "doc_005_chunk_000",
+      "source_id": "doc_005",
+      "source_name": "mdn_web_performance.txt",
+      "path": "documents\\mdn_web_performance.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 111,
+      "text": "Source 9: MDN Web Docs - The why of web performance URL: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/why_web_performance Performance matters because users experience an app through loading time, responsiveness, and reliability on their actual device and connection. MDN's performance guide connects speed to usability, accessibility, retention, and trust. For student side projects, this means avoiding huge bundles, unoptimized images, unnecessary network requests, expensive client-side rendering, and slow database queries. A small project can still feel professional if it loads quickly, gives feedback during slow operations, caches where appropriate, and handles errors gracefully. Performance is also useful in interviews because students can explain concrete tradeoffs: what they measured, what slowed the app down, and what they improved."
+    },
+    {
+      "chunk_id": "doc_006_chunk_000",
+      "source_id": "doc_006",
+      "source_name": "open_source_guides_starting_project.txt",
+      "path": "documents\\open_source_guides_starting_project.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 129,
+      "text": "Source 10: Open Source Guides - Starting an Open Source Project URL: https://opensource.guide/starting-a-project/ Open Source Guides frames a project as more than code: it needs clear goals, expectations, documentation, and contribution paths. For a student, this is helpful even when the project is mostly a portfolio piece. A project should have a clear purpose, a manageable scope, instructions for setup, a license, and guidance for issues or contributions if collaboration is welcome. The guide also implies that project maintenance is a real skill. Students can show maturity by keeping the project focused, explaining decisions, labeling known bugs, and making it easy for someone else to understand the current status. A side project does not need to become a large open source community, but it benefits from the same clarity."
+    },
+    {
+      "chunk_id": "doc_007_chunk_000",
+      "source_id": "doc_007",
+      "source_name": "owasp_top_ten.txt",
+      "path": "documents\\owasp_top_ten.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 132,
+      "text": "Source 6: OWASP Top Ten Web Application Security Risks URL: https://owasp.org/www-project-top-ten/ OWASP Top Ten is a security reference for the most critical categories of web application risk. Student side projects commonly touch authentication, user input, databases, file uploads, sessions, and third-party packages, so OWASP is useful even for small apps. The guide should remind students that a project is not \"done\" just because the feature works locally. They should check for broken access control, injection, cryptographic mistakes, insecure design, security misconfiguration, vulnerable dependencies, authentication failures, software and data integrity issues, missing logging, and server-side request forgery. A practical side-project checklist can translate those risks into habits: validate input, use prepared database queries or ORM safeguards, avoid exposing admin routes, store passwords with proven hashing libraries, update dependencies, and avoid overpowered API keys."
+    },
+    {
+      "chunk_id": "doc_008_chunk_000",
+      "source_id": "doc_008",
+      "source_name": "redit_cs_career_1.txt",
+      "path": "documents\\redit_cs_career_1.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 350,
+      "text": "Thread title: Really do not understand the hype around AI writes most code Source context: r/cscareerquestions discussion about AI coding tools, boilerplate, side projects, software quality, and developer accountability. Original post: The poster says they are confused by claims that AI writes most code because much of software work has always involved generated boilerplate, libraries, and copied patterns. They started as a full-time engineer in 2020 and worked in Angular, where commands like `ng generate component component-name` create starter files. Their point is that line count is a weak measurement because the hardest work is usually the remaining logic, design, integration, and judgment after boilerplate is generated. Substantive responses: One commenter argues that AI coding tools are different from older boilerplate generators because the user no longer has to know which framework pieces, libraries, or patterns to pull together. The model can assemble those pieces from a higher-level request, which changes the skill needed to start building. Another commenter says they can give an AI tool a feature description from an internal document and get back a feature, tests, and documentation. They still manually validate the result and find issues, but the tool saves time on building the first version. Several commenters emphasize code quality and accountability. One says they encourage junior engineers to use AI, but they only care about whether the final code is good and whether tickets are completed. Their juniors often say the generated code is poor and they have to rewrite it. Another commenter says AI-generated tests can be weak if the model creates strange mocks or does not follow the existing project style. They improved results by giving the model project-specific instructions and telling it to follow the existing tests. Some commenters argue that AI is more than a template generator because it can implement contracts, infer missing pieces, and connect tasks across tools. One example describes an AI-assisted workflow that generates a component, writes tests, triggers deployment, handles pipeline failures, updates issue tracking, and sends status messages. The commenter says this requires rules, scripts, and review, but it shows AI can support more"
+    },
+    {
+      "chunk_id": "doc_008_chunk_001",
+      "source_id": "doc_008",
+      "source_name": "redit_cs_career_1.txt",
+      "path": "documents\\redit_cs_career_1.txt",
+      "chunk_index": 1,
+      "start_word": 250,
+      "end_word": 600,
+      "text": "AI-generated tests can be weak if the model creates strange mocks or does not follow the existing project style. They improved results by giving the model project-specific instructions and telling it to follow the existing tests. Some commenters argue that AI is more than a template generator because it can implement contracts, infer missing pieces, and connect tasks across tools. One example describes an AI-assisted workflow that generates a component, writes tests, triggers deployment, handles pipeline failures, updates issue tracking, and sends status messages. The commenter says this requires rules, scripts, and review, but it shows AI can support more than raw typing. Others are skeptical. One commenter says AI can write many lines of code but may add twice as many mistakes. Another says AI often reinvents the wheel, creates too much code, or produces code that only looks correct. A frontend developer says they are often faster without AI, especially when design requirements are specific, frameworks are restricted, or the model proposes an overly complicated solution. Some commenters frame AI as an advanced search and code exploration tool. They say it is useful for finding errors, summarizing a codebase, or explaining unfamiliar systems, but less reliable as an end-to-end replacement for developer thinking. Another recurring idea is that line count is not the right metric. Frameworks, libraries, code generators, Stack Overflow, and copied examples have always produced much of the code in modern apps. The more meaningful questions are whether the developer understands the output, can validate it, can maintain it, and can take responsibility for the final behavior. Takeaways for a tech student's side project guide: Use AI as an assistant, not as proof that a project is finished. Generated code still needs review, testing, security checks, and cleanup. Do not measure a project by lines of code. A small project with clear design, good documentation, tests, and thoughtful tradeoffs can be stronger than a large generated project. Learn the framework and libraries well enough to judge AI output. If you cannot explain the code, debug it, or modify it, the project is fragile. Give AI tools"
+    },
+    {
+      "chunk_id": "doc_008_chunk_002",
+      "source_id": "doc_008",
+      "source_name": "redit_cs_career_1.txt",
+      "path": "documents\\redit_cs_career_1.txt",
+      "chunk_index": 2,
+      "start_word": 500,
+      "end_word": 635,
+      "text": "can maintain it, and can take responsibility for the final behavior. Takeaways for a tech student's side project guide: Use AI as an assistant, not as proof that a project is finished. Generated code still needs review, testing, security checks, and cleanup. Do not measure a project by lines of code. A small project with clear design, good documentation, tests, and thoughtful tradeoffs can be stronger than a large generated project. Learn the framework and libraries well enough to judge AI output. If you cannot explain the code, debug it, or modify it, the project is fragile. Give AI tools project-specific context: existing files, style conventions, test examples, constraints, and acceptance criteria. For portfolio projects, be ready to explain what you built, what AI helped with, what you changed, and how you verified the result."
+    },
+    {
+      "chunk_id": "doc_009_chunk_000",
+      "source_id": "doc_009",
+      "source_name": "redit_cs_careers_2.txt",
+      "path": "documents\\redit_cs_careers_2.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 350,
+      "text": "Thread title: Company took away access to Claude Source context: r/cscareerquestions discussion about AI coding tool access, cost, productivity, quality, and risks of overreliance. Original post: The poster says their company spent two years telling employees to use AI for every task and even rebranded around being AI-first after layoffs. Then the company removed access to Claude. The poster felt the strongest model was the only one that avoided low-quality output. They say weaker models are less useful for senior-level work because the time spent writing detailed specs and managing context can become greater than the time saved. The poster works for a large financial company. Substantive responses: A major theme is cost. Several commenters argue that free or subsidized AI access creates unrealistic expectations until the company receives the real bill. One commenter calls this the end of the all-you-can-eat AI period and says AI assistance can be good in some scenarios, but it is still an assistant, not a full replacement, especially at real cost. Another commenter says token-based pricing is hard for companies because costs are non-deterministic and usage can grow unpredictably. If the return on investment is not obvious, finance teams may restrict access, require approvals, or limit which models employees can use. Some commenters describe companies encouraging heavy AI use and then reversing course when budgets, overage charges, or model pricing changed. One commenter says their company tracked AI usage and pushed employees to use it, then suddenly blocked access. Another says their company started requiring approvals after a period of unrestricted use caused very high bills. Several commenters connect AI cost to side effects for teams. Restrictions can interrupt developer workflows if people have become dependent on a specific tool. Some also worry that replacing junior work with AI harms the talent pipeline because companies still need junior developers to become future senior developers. Quality is another major theme. Some commenters say AI-generated code can be useful, but it can also produce poor source code, misleading summaries, or low-quality patterns if the sources or prompts are weak. Others argue that the biggest lie is"
+    },
+    {
+      "chunk_id": "doc_009_chunk_001",
+      "source_id": "doc_009",
+      "source_name": "redit_cs_careers_2.txt",
+      "path": "documents\\redit_cs_careers_2.txt",
+      "chunk_index": 1,
+      "start_word": 250,
+      "end_word": 554,
+      "text": "requiring approvals after a period of unrestricted use caused very high bills. Several commenters connect AI cost to side effects for teams. Restrictions can interrupt developer workflows if people have become dependent on a specific tool. Some also worry that replacing junior work with AI harms the talent pipeline because companies still need junior developers to become future senior developers. Quality is another major theme. Some commenters say AI-generated code can be useful, but it can also produce poor source code, misleading summaries, or low-quality patterns if the sources or prompts are weak. Others argue that the biggest lie is exaggerated speed gains: a task may appear fast in a demo, but real work still includes prompting, waiting, reviewing, testing, QA, deployment, and debugging. There is disagreement about how much AI helps. Some say the tools are excellent and worth paying for. Others say they are useful only for basic searches, repetitive tasks, research, or codebase summaries. A common middle position is that AI is valuable but should not become the only way a developer can work. Takeaways for a tech student's side project guide: Choose tools with cost in mind. AI APIs, hosted models, and paid coding assistants can become expensive, especially if a project grows or uses many tokens. Do not build a side project that only works when a paid AI tool is available. Have a fallback plan, clear limits, and a way to continue coding manually. Track what AI is doing for your project. If the tool generates code, tests, documentation, or architecture, review and verify each piece. Be honest about productivity. Include time for prompt writing, waiting, debugging, testing, deployment, and maintenance. For portfolio work, demonstrate that you understand the project without the AI tool. You should be able to explain the architecture, fix bugs, and justify tradeoffs yourself."
+    },
+    {
+      "chunk_id": "doc_010_chunk_000",
+      "source_id": "doc_010",
+      "source_name": "twelve_factor_config.txt",
+      "path": "documents\\twelve_factor_config.txt",
+      "chunk_index": 0,
+      "start_word": 0,
+      "end_word": 117,
+      "text": "Source 5: The Twelve-Factor App - Config URL: https://12factor.net/config Side projects often leak secrets because students place API keys, database passwords, or tokens directly in source code. The Twelve-Factor App's config principle recommends separating configuration from code, especially values that vary between deploys. In practice, a student project should use environment variables for secrets and deployment-specific settings, keep a safe .env.example file, and avoid committing real credentials. This is especially important for projects using AI APIs, payment providers, cloud databases, OAuth clients, or third-party services. Clean config also makes a project easier to deploy on services like Render, Vercel, Railway, Fly.io, or a school server because the same code can run in different environments with different settings."
+    }
+  ]
+}

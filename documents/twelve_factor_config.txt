@@ -1,0 +1,4 @@
+Source 5: The Twelve-Factor App - Config
+URL: https://12factor.net/config
+
+Side projects often leak secrets because students place API keys, database passwords, or tokens directly in source code. The Twelve-Factor App's config principle recommends separating configuration from code, especially values that vary between deploys. In practice, a student project should use environment variables for secrets and deployment-specific settings, keep a safe .env.example file, and avoid committing real credentials. This is especially important for projects using AI APIs, payment providers, cloud databases, OAuth clients, or third-party services. Clean config also makes a project easier to deploy on services like Render, Vercel, Railway, Fly.io, or a school server because the same code can run in different environments with different settings.

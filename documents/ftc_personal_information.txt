@@ -1,0 +1,4 @@
+Source 7: FTC - Protecting Personal Information: A Guide for Business
+URL: https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business
+
+The FTC's business guidance is useful for side projects that collect names, emails, resumes, messages, school information, analytics, payment data, or any user account data. The main lesson for students is data minimization: do not collect personal information unless the project actually needs it, and do not keep it longer than needed. Projects should protect stored data, restrict who can access it, and dispose of data safely when it is no longer necessary. A student building a public app should know what data the app collects, where it is stored, which third-party services receive it, and how a user could request deletion. Even a small portfolio project can create real privacy risk if it has a database, public forms, logs, or analytics.

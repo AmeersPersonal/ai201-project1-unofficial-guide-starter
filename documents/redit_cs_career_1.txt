@@ -1,0 +1,35 @@
+Thread title: Really do not understand the hype around AI writes most code
+Source context: r/cscareerquestions discussion about AI coding tools, boilerplate, side projects, software quality, and developer accountability.
+
+Original post:
+The poster says they are confused by claims that AI writes most code because much of software work has always involved generated boilerplate, libraries, and copied patterns. They started as a full-time engineer in 2020 and worked in Angular, where commands like `ng generate component component-name` create starter files. Their point is that line count is a weak measurement because the hardest work is usually the remaining logic, design, integration, and judgment after boilerplate is generated.
+
+Substantive responses:
+
+One commenter argues that AI coding tools are different from older boilerplate generators because the user no longer has to know which framework pieces, libraries, or patterns to pull together. The model can assemble those pieces from a higher-level request, which changes the skill needed to start building.
+
+Another commenter says they can give an AI tool a feature description from an internal document and get back a feature, tests, and documentation. They still manually validate the result and find issues, but the tool saves time on building the first version.
+
+Several commenters emphasize code quality and accountability. One says they encourage junior engineers to use AI, but they only care about whether the final code is good and whether tickets are completed. Their juniors often say the generated code is poor and they have to rewrite it.
+
+Another commenter says AI-generated tests can be weak if the model creates strange mocks or does not follow the existing project style. They improved results by giving the model project-specific instructions and telling it to follow the existing tests.
+
+Some commenters argue that AI is more than a template generator because it can implement contracts, infer missing pieces, and connect tasks across tools. One example describes an AI-assisted workflow that generates a component, writes tests, triggers deployment, handles pipeline failures, updates issue tracking, and sends status messages. The commenter says this requires rules, scripts, and review, but it shows AI can support more than raw typing.
+
+Others are skeptical. One commenter says AI can write many lines of code but may add twice as many mistakes. Another says AI often reinvents the wheel, creates too much code, or produces code that only looks correct. A frontend developer says they are often faster without AI, especially when design requirements are specific, frameworks are restricted, or the model proposes an overly complicated solution.
+
+Some commenters frame AI as an advanced search and code exploration tool. They say it is useful for finding errors, summarizing a codebase, or explaining unfamiliar systems, but less reliable as an end-to-end replacement for developer thinking.
+
+Another recurring idea is that line count is not the right metric. Frameworks, libraries, code generators, Stack Overflow, and copied examples have always produced much of the code in modern apps. The more meaningful questions are whether the developer understands the output, can validate it, can maintain it, and can take responsibility for the final behavior.
+
+Takeaways for a tech student's side project guide:
+
+Use AI as an assistant, not as proof that a project is finished. Generated code still needs review, testing, security checks, and cleanup.
+
+Do not measure a project by lines of code. A small project with clear design, good documentation, tests, and thoughtful tradeoffs can be stronger than a large generated project.
+
+Learn the framework and libraries well enough to judge AI output. If you cannot explain the code, debug it, or modify it, the project is fragile.
+
+Give AI tools project-specific context: existing files, style conventions, test examples, constraints, and acceptance criteria.
+
+For portfolio projects, be ready to explain what you built, what AI helped with, what you changed, and how you verified the result.

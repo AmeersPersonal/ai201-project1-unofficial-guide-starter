@@ -1,0 +1,4 @@
+Source 3: GitHub Docs - About the repository README file
+URL: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+
+A strong side project needs a README because the README is usually the first thing another developer, recruiter, classmate, or potential user sees. GitHub's README guidance says the file should explain what the project does, why it is useful, how someone can get started, where users can get help, and who maintains or contributes to the project. For a tech student, this means the README should not only show that the app works, but also show judgment: clear setup steps, environment variables, screenshots or demo links, known limitations, and honest notes about what is still unfinished. A side project that is hard to run or understand can look weaker than a smaller project that is documented well.
